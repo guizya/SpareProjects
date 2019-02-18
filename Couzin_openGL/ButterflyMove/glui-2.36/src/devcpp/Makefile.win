@@ -1,0 +1,158 @@
+# Project: glui32
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ./algebra3.o ./arcball.o ./glui.o ./glui_add_controls.o ./glui_bitmap_img_data.o ./glui_bitmaps.o ./glui_button.o ./glui_checkbox.o ./glui_column.o ./glui_control.o ./glui_edittext.o ./glui_img_checkbox_0.o ./glui_img_checkbox_0_dis.o ./glui_img_checkbox_1.o ./glui_img_checkbox_1_dis.o ./glui_img_downarrow.o ./glui_img_leftarrow.o ./glui_img_listbox_down.o ./glui_img_listbox_up.o ./glui_img_listbox_up_dis.o ./glui_img_radiobutton_0.o ./glui_img_radiobutton_0_dis.o ./glui_img_radiobutton_1.o ./glui_img_radiobutton_1_dis.o ./glui_img_rightarrow.o ./glui_img_spindown_0.o ./glui_img_spindown_1.o ./glui_img_spindown_dis.o ./glui_img_spinup_0.o ./glui_img_spinup_1.o ./glui_img_spinup_dis.o ./glui_img_uparrow.o ./glui_listbox.o ./glui_mouse_iaction.o ./glui_node.o ./glui_panel.o ./glui_radio.o ./glui_rollout.o ./glui_rotation.o ./glui_separator.o ./glui_spinner.o ./glui_statictext.o ./glui_translation.o ./quaternion.o
+LINKOBJ  = ./algebra3.o ./arcball.o ./glui.o ./glui_add_controls.o ./glui_bitmap_img_data.o ./glui_bitmaps.o ./glui_button.o ./glui_checkbox.o ./glui_column.o ./glui_control.o ./glui_edittext.o ./glui_img_checkbox_0.o ./glui_img_checkbox_0_dis.o ./glui_img_checkbox_1.o ./glui_img_checkbox_1_dis.o ./glui_img_downarrow.o ./glui_img_leftarrow.o ./glui_img_listbox_down.o ./glui_img_listbox_up.o ./glui_img_listbox_up_dis.o ./glui_img_radiobutton_0.o ./glui_img_radiobutton_0_dis.o ./glui_img_radiobutton_1.o ./glui_img_radiobutton_1_dis.o ./glui_img_rightarrow.o ./glui_img_spindown_0.o ./glui_img_spindown_1.o ./glui_img_spindown_dis.o ./glui_img_spinup_0.o ./glui_img_spinup_1.o ./glui_img_spinup_dis.o ./glui_img_uparrow.o ./glui_listbox.o ./glui_mouse_iaction.o ./glui_node.o ./glui_panel.o ./glui_radio.o ./glui_rollout.o ./glui_rotation.o ./glui_separator.o ./glui_spinner.o ./glui_statictext.o ./glui_translation.o ./quaternion.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = libglui.a
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	ar r $(BIN) $(LINKOBJ)
+	ranlib $(BIN)
+
+./algebra3.o: ../algebra3.cpp
+	$(CPP) -c ../algebra3.cpp -o ./algebra3.o $(CXXFLAGS)
+
+./arcball.o: ../arcball.cpp
+	$(CPP) -c ../arcball.cpp -o ./arcball.o $(CXXFLAGS)
+
+./glui.o: ../glui.cpp
+	$(CPP) -c ../glui.cpp -o ./glui.o $(CXXFLAGS)
+
+./glui_add_controls.o: ../glui_add_controls.cpp
+	$(CPP) -c ../glui_add_controls.cpp -o ./glui_add_controls.o $(CXXFLAGS)
+
+./glui_bitmap_img_data.o: ../glui_bitmap_img_data.cpp
+	$(CPP) -c ../glui_bitmap_img_data.cpp -o ./glui_bitmap_img_data.o $(CXXFLAGS)
+
+./glui_bitmaps.o: ../glui_bitmaps.cpp
+	$(CPP) -c ../glui_bitmaps.cpp -o ./glui_bitmaps.o $(CXXFLAGS)
+
+./glui_button.o: ../glui_button.cpp
+	$(CPP) -c ../glui_button.cpp -o ./glui_button.o $(CXXFLAGS)
+
+./glui_checkbox.o: ../glui_checkbox.cpp
+	$(CPP) -c ../glui_checkbox.cpp -o ./glui_checkbox.o $(CXXFLAGS)
+
+./glui_column.o: ../glui_column.cpp
+	$(CPP) -c ../glui_column.cpp -o ./glui_column.o $(CXXFLAGS)
+
+./glui_control.o: ../glui_control.cpp
+	$(CPP) -c ../glui_control.cpp -o ./glui_control.o $(CXXFLAGS)
+
+./glui_edittext.o: ../glui_edittext.cpp
+	$(CPP) -c ../glui_edittext.cpp -o ./glui_edittext.o $(CXXFLAGS)
+
+./glui_img_checkbox_0.o: ../glui_img_checkbox_0.c
+	$(CC) -c ../glui_img_checkbox_0.c -o ./glui_img_checkbox_0.o $(CFLAGS)
+
+./glui_img_checkbox_0_dis.o: ../glui_img_checkbox_0_dis.c
+	$(CC) -c ../glui_img_checkbox_0_dis.c -o ./glui_img_checkbox_0_dis.o $(CFLAGS)
+
+./glui_img_checkbox_1.o: ../glui_img_checkbox_1.c
+	$(CC) -c ../glui_img_checkbox_1.c -o ./glui_img_checkbox_1.o $(CFLAGS)
+
+./glui_img_checkbox_1_dis.o: ../glui_img_checkbox_1_dis.c
+	$(CC) -c ../glui_img_checkbox_1_dis.c -o ./glui_img_checkbox_1_dis.o $(CFLAGS)
+
+./glui_img_downarrow.o: ../glui_img_downarrow.c
+	$(CC) -c ../glui_img_downarrow.c -o ./glui_img_downarrow.o $(CFLAGS)
+
+./glui_img_leftarrow.o: ../glui_img_leftarrow.c
+	$(CC) -c ../glui_img_leftarrow.c -o ./glui_img_leftarrow.o $(CFLAGS)
+
+./glui_img_listbox_down.o: ../glui_img_listbox_down.c
+	$(CC) -c ../glui_img_listbox_down.c -o ./glui_img_listbox_down.o $(CFLAGS)
+
+./glui_img_listbox_up.o: ../glui_img_listbox_up.c
+	$(CC) -c ../glui_img_listbox_up.c -o ./glui_img_listbox_up.o $(CFLAGS)
+
+./glui_img_listbox_up_dis.o: ../glui_img_listbox_up_dis.c
+	$(CC) -c ../glui_img_listbox_up_dis.c -o ./glui_img_listbox_up_dis.o $(CFLAGS)
+
+./glui_img_radiobutton_0.o: ../glui_img_radiobutton_0.c
+	$(CC) -c ../glui_img_radiobutton_0.c -o ./glui_img_radiobutton_0.o $(CFLAGS)
+
+./glui_img_radiobutton_0_dis.o: ../glui_img_radiobutton_0_dis.c
+	$(CC) -c ../glui_img_radiobutton_0_dis.c -o ./glui_img_radiobutton_0_dis.o $(CFLAGS)
+
+./glui_img_radiobutton_1.o: ../glui_img_radiobutton_1.c
+	$(CC) -c ../glui_img_radiobutton_1.c -o ./glui_img_radiobutton_1.o $(CFLAGS)
+
+./glui_img_radiobutton_1_dis.o: ../glui_img_radiobutton_1_dis.c
+	$(CC) -c ../glui_img_radiobutton_1_dis.c -o ./glui_img_radiobutton_1_dis.o $(CFLAGS)
+
+./glui_img_rightarrow.o: ../glui_img_rightarrow.c
+	$(CC) -c ../glui_img_rightarrow.c -o ./glui_img_rightarrow.o $(CFLAGS)
+
+./glui_img_spindown_0.o: ../glui_img_spindown_0.c
+	$(CC) -c ../glui_img_spindown_0.c -o ./glui_img_spindown_0.o $(CFLAGS)
+
+./glui_img_spindown_1.o: ../glui_img_spindown_1.c
+	$(CC) -c ../glui_img_spindown_1.c -o ./glui_img_spindown_1.o $(CFLAGS)
+
+./glui_img_spindown_dis.o: ../glui_img_spindown_dis.c
+	$(CC) -c ../glui_img_spindown_dis.c -o ./glui_img_spindown_dis.o $(CFLAGS)
+
+./glui_img_spinup_0.o: ../glui_img_spinup_0.c
+	$(CC) -c ../glui_img_spinup_0.c -o ./glui_img_spinup_0.o $(CFLAGS)
+
+./glui_img_spinup_1.o: ../glui_img_spinup_1.c
+	$(CC) -c ../glui_img_spinup_1.c -o ./glui_img_spinup_1.o $(CFLAGS)
+
+./glui_img_spinup_dis.o: ../glui_img_spinup_dis.c
+	$(CC) -c ../glui_img_spinup_dis.c -o ./glui_img_spinup_dis.o $(CFLAGS)
+
+./glui_img_uparrow.o: ../glui_img_uparrow.c
+	$(CC) -c ../glui_img_uparrow.c -o ./glui_img_uparrow.o $(CFLAGS)
+
+./glui_listbox.o: ../glui_listbox.cpp
+	$(CPP) -c ../glui_listbox.cpp -o ./glui_listbox.o $(CXXFLAGS)
+
+./glui_mouse_iaction.o: ../glui_mouse_iaction.cpp
+	$(CPP) -c ../glui_mouse_iaction.cpp -o ./glui_mouse_iaction.o $(CXXFLAGS)
+
+./glui_node.o: ../glui_node.cpp
+	$(CPP) -c ../glui_node.cpp -o ./glui_node.o $(CXXFLAGS)
+
+./glui_panel.o: ../glui_panel.cpp
+	$(CPP) -c ../glui_panel.cpp -o ./glui_panel.o $(CXXFLAGS)
+
+./glui_radio.o: ../glui_radio.cpp
+	$(CPP) -c ../glui_radio.cpp -o ./glui_radio.o $(CXXFLAGS)
+
+./glui_rollout.o: ../glui_rollout.cpp
+	$(CPP) -c ../glui_rollout.cpp -o ./glui_rollout.o $(CXXFLAGS)
+
+./glui_rotation.o: ../glui_rotation.cpp
+	$(CPP) -c ../glui_rotation.cpp -o ./glui_rotation.o $(CXXFLAGS)
+
+./glui_separator.o: ../glui_separator.cpp
+	$(CPP) -c ../glui_separator.cpp -o ./glui_separator.o $(CXXFLAGS)
+
+./glui_spinner.o: ../glui_spinner.cpp
+	$(CPP) -c ../glui_spinner.cpp -o ./glui_spinner.o $(CXXFLAGS)
+
+./glui_statictext.o: ../glui_statictext.cpp
+	$(CPP) -c ../glui_statictext.cpp -o ./glui_statictext.o $(CXXFLAGS)
+
+./glui_translation.o: ../glui_translation.cpp
+	$(CPP) -c ../glui_translation.cpp -o ./glui_translation.o $(CXXFLAGS)
+
+./quaternion.o: ../quaternion.cpp
+	$(CPP) -c ../quaternion.cpp -o ./quaternion.o $(CXXFLAGS)

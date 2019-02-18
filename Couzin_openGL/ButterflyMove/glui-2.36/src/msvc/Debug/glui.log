@@ -1,0 +1,63 @@
+﻿  algebra3.cpp
+  arcball.cpp
+  glui.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_add_controls.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_bitmaps.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_bitmap_img_data.cpp
+  glui_button.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_checkbox.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_column.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_commandline.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_control.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_edittext.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_filebrowser.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_list.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_listbox.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_mouse_iaction.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_node.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_panel.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_radio.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_rollout.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  glui_rotation.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_scrollbar.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_separator.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_spinner.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_statictext.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_string.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_textbox.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_translation.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_tree.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_treepanel.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  glui_window.cpp
+d:\projects\butterflymove\butterflymove\glui-2.36\src\include\gl\glui.h(60): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+  quaternion.cpp
+  正在生成代码...
